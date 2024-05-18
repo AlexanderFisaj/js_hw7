@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 20px;
+}
+
+.content {
+  width: 600px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: grey;
+}
+
+.positionBar {
+    height: 30px;
+    color: white;
+    font-weight: bold;
+    background: #0075ff;
+    text-align: center;
+ }
+ 
+ .positionBar span {
+    display: inline-block;
+    margin-top: 5px;
+ }
+ 
+ .durationBar {
+    border: solid 1px black;
+    width: 100%;
+    margin-bottom: 5px;
+ }
+
+input[type="range"].progress {
+  min-width: 100%;
+}
+
+.navigate {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+
+.video {
+  min-width: 100%;
+  cursor: pointer;
+}
+
+.progress {
+  padding-bottom: 20px;
+}
+
+.play {
+  cursor: pointer;
+  width: 100px;
+  fill: black;
+}
+
+.play:hover {
+  fill: #0075ff;
+}
+
+.pause {
+  cursor: pointer;
+  width: 100px;
+  fill: black;
+}
+
+.pause:hover {
+  fill: #0075ff;
+}
+
+.stop {
+  cursor: pointer;
+  width: 100px;
+  fill: black;
+}
+
+.stop:hover {
+  fill: #0075ff;
+} /*# sourceMappingURL=style.css.map */
