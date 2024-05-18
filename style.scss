@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 20px;
+}
+
+.content {
+  width: 600px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: grey;
+}
+
+input[type="range"].progress {
+  min-width: 100%;
+}
+
+.navigate {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+
+.video {
+  min-width: 100%;
+}
+
+.progress {
+  padding-bottom: 20px;
+}
+
+.play {
+  width: 100px;
+  fill: black;
+}
+
+.play:hover {
+  fill: #0075ff;
+}
+
+.pause {
+  width: 100px;
+  fill: black;
+}
+
+.pause:hover {
+  fill: #0075ff;
+}
+
+.stop {
+  width: 100px;
+  fill: black;
+}
+
+.stop:hover {
+  fill: #0075ff;
+}
